@@ -1,0 +1,34 @@
+{
+	"name": "rektic/rektic-wp",
+	"description": "Rektic WP plugin",
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"homepage": "https://omarion.me",
+	"autoload": {
+		"psr-4": {
+			"RekticWp\\": "src/"
+		}
+	},
+	"scripts": {},
+	"require": {
+		"php": ">=7.1",
+		"ext-json": "*",
+		"micropackage/requirements": "^1.0"
+	},
+	"keywords": [
+		"wordpress",
+		"plugin",
+		"rektic",
+		"generator"
+	],
+	"authors": [
+		{
+			"name": "SAKHRAOUI Omar",
+			"email": "info@omarion.me",
+			"homepage": "https://omarion.me"
+		}
+	]
+}

@@ -1,0 +1,250 @@
+# Copyright (C) 2021 rektic-wp
+# This file is distributed under the same license as the rektic-wp package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rektic-wp\n"
+"Report-Msgid-Bugs-To: https://omarion.me\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: SAKHRAOUI Omar <info@omarion.me>\n"
+"Language-Team: SAKHRAOUI Omar <info@omarion.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: rektic-wp.php:68
+msgid "Rektic WP is unable to find the Bootstrap class."
+msgstr ""
+
+#: rektic-wp.php:78
+msgid "Rektic WP is unable to run the Bootstrap class."
+msgstr ""
+
+#: src/App/Backend/Ajaxer.php:163 src/App/Backend/Ajaxer.php:222
+#: src/App/Backend/Ajaxer.php:273 src/App/Backend/Ajaxer.php:334
+#: src/App/Backend/Ajaxer.php:405 src/App/Backend/Ajaxer.php:462
+#: src/App/Backend/Ajaxer.php:517 src/App/Backend/Ajaxer.php:574
+#: src/App/Backend/Ajaxer.php:625 src/App/Backend/Ajaxer.php:676
+#: src/App/Backend/Ajaxer.php:727 src/App/Backend/Ajaxer.php:778
+#: src/App/Backend/Ajaxer.php:833 src/App/Backend/Ajaxer.php:891
+#: src/App/Backend/Ajaxer.php:951 src/App/Backend/Ajaxer.php:1006
+#: src/App/Backend/Ajaxer.php:1061
+msgid "Not enough power you wield"
+msgstr ""
+
+#: src/App/Backend/Ajaxer.php:198 src/App/Backend/Ajaxer.php:249
+#: src/App/Backend/Ajaxer.php:308 src/App/Backend/Ajaxer.php:381
+#: src/App/Backend/Ajaxer.php:601 src/App/Backend/Ajaxer.php:652
+#: src/App/Backend/Ajaxer.php:703 src/App/Backend/Ajaxer.php:754
+#: src/App/Backend/Ajaxer.php:809 src/App/Backend/Ajaxer.php:867
+#: src/App/Backend/Ajaxer.php:927 src/App/Backend/Ajaxer.php:982
+#: src/App/Backend/Ajaxer.php:1037 src/App/Backend/Ajaxer.php:1104
+msgid "This article does not exist!"
+msgstr ""
+
+#: src/App/Backend/Ajaxer.php:202 src/App/Backend/Ajaxer.php:253
+#: src/App/Backend/Ajaxer.php:312 src/App/Backend/Ajaxer.php:385
+#: src/App/Backend/Ajaxer.php:442 src/App/Backend/Ajaxer.php:497
+#: src/App/Backend/Ajaxer.php:554 src/App/Backend/Ajaxer.php:605
+#: src/App/Backend/Ajaxer.php:656 src/App/Backend/Ajaxer.php:707
+#: src/App/Backend/Ajaxer.php:758 src/App/Backend/Ajaxer.php:813
+#: src/App/Backend/Ajaxer.php:871 src/App/Backend/Ajaxer.php:931
+#: src/App/Backend/Ajaxer.php:986 src/App/Backend/Ajaxer.php:1041
+#: src/App/Backend/Ajaxer.php:1108
+msgid "Could not contact the server!"
+msgstr ""
+
+#: src/App/Backend/Ajaxer.php:206 src/App/Backend/Ajaxer.php:257
+#: src/App/Backend/Ajaxer.php:318 src/App/Backend/Ajaxer.php:389
+#: src/App/Backend/Ajaxer.php:446 src/App/Backend/Ajaxer.php:501
+#: src/App/Backend/Ajaxer.php:558 src/App/Backend/Ajaxer.php:609
+#: src/App/Backend/Ajaxer.php:660 src/App/Backend/Ajaxer.php:711
+#: src/App/Backend/Ajaxer.php:762 src/App/Backend/Ajaxer.php:817
+#: src/App/Backend/Ajaxer.php:875 src/App/Backend/Ajaxer.php:935
+#: src/App/Backend/Ajaxer.php:990 src/App/Backend/Ajaxer.php:1045
+#: src/App/Backend/Ajaxer.php:1112
+msgid "Some data is missing!"
+msgstr ""
+
+#: src/App/Backend/Ajaxer.php:438 src/App/Backend/Ajaxer.php:493
+#: src/App/Backend/Ajaxer.php:550
+msgid "There was a problem!"
+msgstr ""
+
+#: src/App/Backend/MenuPages.php:96
+msgid "My Rektic"
+msgstr ""
+
+#: src/App/Backend/MenuPages.php:96
+msgid "My Rektic Articles"
+msgstr ""
+
+#: src/App/Backend/MenuPages.php:101 src/App/Backend/MenuPages.php:102
+msgid "Create A New Article"
+msgstr ""
+
+#: src/App/Backend/MenuPages.php:107 src/App/Backend/MenuPages.php:108
+msgid "Edit Article"
+msgstr ""
+
+#: src/App/Backend/MetaBox.php:74
+msgid "Rektic Content Generator"
+msgstr ""
+
+#: src/App/Backend/Notices.php:55
+msgid "This area is critical, proceed carefully!."
+msgstr ""
+
+#: src/App/Backend/Settings.php:94 templates/settings.php:13
+msgid "Rektic Settings"
+msgstr ""
+
+#: src/Bootstrap.php:343
+#, php-format
+msgid "Could not load class \"%s\". The \"init\" method is probably missing or try a `composer dumpautoload -o` to refresh the autoloader."
+msgstr ""
+
+#: src/Bootstrap.php:344
+msgid "Plugin initialize failed"
+msgstr ""
+
+#: src/Common/Traits/Requester.php:52
+#, php-format
+msgid "Unknown request type: %s"
+msgstr ""
+
+#: src/Common/Traits/Requester.php:53
+msgid "Classes are not being correctly requested"
+msgstr ""
+
+#: src/Common/Utils/Errors.php:41
+msgid "&rsaquo; Fatal Error"
+msgstr ""
+
+#: src/Common/Utils/Errors.php:49 src/Common/Utils/Errors.php:113
+#, php-format
+msgid "Error source: %s"
+msgstr ""
+
+#: src/Common/Utils/Errors.php:105
+msgid "&rsaquo; Plugin Disabled"
+msgstr ""
+
+#: src/Config/Requirements.php:88
+msgid "Invalid PHP version"
+msgstr ""
+
+#: src/Config/Requirements.php:89
+#, php-format
+msgid "You must be using PHP %1$1s or greater. You are currently using PHP %2$2s."
+msgstr ""
+
+#: src/Config/Requirements.php:98
+msgid "Invalid WordPress version"
+msgstr ""
+
+#: src/Config/Requirements.php:99
+#, php-format
+msgid "You must be using WordPress %1$1s or greater. You are currently using WordPress %2$2s."
+msgstr ""
+
+#: templates/access-denied.php:17
+msgid "Error"
+msgstr ""
+
+#: templates/access-denied.php:18
+msgid "Your access has been denied, please login in using "
+msgstr ""
+
+#: templates/access-denied.php:19
+msgid "This link"
+msgstr ""
+
+#: templates/article-edit.php:18
+msgid "Create a new article"
+msgstr ""
+
+#: templates/article-edit.php:19
+msgid "Edit article"
+msgstr ""
+
+#: templates/article-edit.php:20
+msgid "Please follow the form to create your article"
+msgstr ""
+
+#: templates/articles-list.php:13
+msgid "Rektic Articles list"
+msgstr ""
+
+#: templates/articles-list.php:14
+msgid "Articles list present in your account"
+msgstr ""
+
+#: templates/articles-list.php:78
+msgid "Create article"
+msgstr ""
+
+#: templates/settings.php:14
+msgid "Settings for Rektic plugin"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/DocHooks.php:45
+msgid "Support for DocHooks is required. You need to disable OPCache comment stripping."
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/DocHooks.php:49
+msgid "Support for DocHooks is superfluous"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/PHP.php:44
+#, php-format
+msgid "Minimum required version of PHP is %1$s. Your version is %2$s"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/PHPExtensions.php:50
+#, php-format
+msgid "Missing PHP extension: %s"
+msgid_plural "Missing PHP extensions: %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/micropackage/requirements/src/Checker/Plugins.php:65
+#, php-format
+msgid "Required plugin: %s"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/Plugins.php:73
+#, php-format
+msgid "Minimum required version of %1$s plugin is %2$s. Your version is %3$s"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/SSL.php:40
+msgid "SSL is required"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/SSL.php:44
+msgid "SSL is superfluous"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/Theme.php:47
+#, php-format
+msgid "Required theme: %s"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Checker/WP.php:44
+#, php-format
+msgid "Minimum required version of WordPress is %1$s. Your version is %2$s"
+msgstr ""
+
+#: vendor/micropackage/requirements/src/Requirements.php:242
+#, php-format
+msgid "The plugin: <strong>%s</strong> cannot be activated."
+msgstr ""

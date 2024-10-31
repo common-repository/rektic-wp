@@ -1,0 +1,534 @@
+/**
+ * Rektic WP
+ *
+ * @package   rektic-wp
+ * @author    SAKHRAOUI Omar <info@omarion.me>
+ * @copyright 2022 Rektic WP
+ * @license   GPLv3
+ * @link      https://omarion.me
+ */
+.form-edit-rektic .stages {
+    font-size: 0;
+    text-align: justify;
+}
+
+.form-edit-rektic .stages:after {
+    font-size: 0;
+    display: inline-block;
+    width: 100%;
+    content: "";
+    text-align: justify;
+}
+
+.form-edit-rektic .stages label {
+    font-size: 0;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    cursor: initial;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: center;
+    vertical-align: top;
+    border: solid 5px #c0c0c0;
+    border-radius: 50%;
+    background: #ffffff;
+    -webkit-touch-callout: none;
+}
+
+.form-edit-rektic .stages label:after {
+    font-size: 16px;
+    display: inline-block;
+    content: "\2713";
+    color: #0cc39f;
+}
+
+.form-edit-rektic #one:checked ~ .stages label[for="one"], .form-edit-rektic #two:checked ~ .stages label[for="two"], .form-edit-rektic #three:checked ~ .stages label[for="three"], .form-edit-rektic #four:checked ~ .stages label[for="four"] {
+    border-color: #0cc39f;
+}
+
+.form-edit-rektic #one:checked ~ .stages label[for="one"], .form-edit-rektic #two:checked ~ .stages label[for="two"], .form-edit-rektic #three:checked ~ .stages label[for="three"], .form-edit-rektic #four:checked ~ .stages label[for="four"] {
+    font-size: 22px !important;
+    color: #0cc39f;
+}
+
+.form-edit-rektic #one:checked ~ .stages label[for="one"] small, .form-edit-rektic #two:checked ~ .stages label[for="two"] small, .form-edit-rektic #three:checked ~ .stages label[for="three"] small, .form-edit-rektic #four:checked ~ .stages label[for="four"] small {
+    color: #3c434a;
+}
+
+.form-edit-rektic #one:checked ~ .stages label, .form-edit-rektic #two:checked ~ .stages label[for="one"] ~ label, .form-edit-rektic #three:checked ~ .stages label[for="two"] ~ label, .form-edit-rektic #four:checked ~ .stages label[for="three"] ~ label {
+    font-size: 1rem;
+}
+
+.form-edit-rektic #one:checked ~ .stages label:after, .form-edit-rektic #two:checked ~ .stages label[for="one"] ~ label:after, .form-edit-rektic #three:checked ~ .stages label[for="two"] ~ label:after, #four:checked ~ .stages label[for="three"] ~ label:after {
+    display: none;
+}
+
+.form-edit-rektic .progress > span {
+    display: inline-block;
+    width: 0;
+    height: 5px;
+    transition: 0.3s;
+    transform: translateY(-5.65em) translateX(1em);
+    background: #c0c0c0;
+}
+
+.form-edit-rektic #two:checked ~ .progress span {
+    width: calc(100% / 2);
+}
+
+.form-edit-rektic #three:checked ~ .progress span {
+    width: calc(100%);
+}
+
+.form-edit-rektic .panels div {
+    display: none;
+}
+
+.form-edit-rektic #one:checked ~ .panels [data-panel="one"], .form-edit-rektic #two:checked ~ .panels [data-panel="two"], .form-edit-rektic #three:checked ~ .panels [data-panel="three"], .form-edit-rektic #four:checked ~ .panels [data-panel="four"], .form-edit-rektic #five:checked ~ .panels [data-panel="five"], .form-edit-rektic #six:checked ~ .panels [data-panel="six"] {
+    display: flex;
+    align-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.form-edit-rektic input, .form-edit-rektic select, .form-edit-rektic textarea {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.form-edit-rektic a {
+    color: #0cc39f;
+}
+
+.form-edit-rektic h2, .form-edit-rektic h4 {
+    margin-top: 0;
+}
+
+.form-edit-rektic {
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-width: 520px;
+    padding: 1em;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .4);
+}
+
+.form-edit-rektic .panels div {
+    margin: 1em 0 0;
+    padding: 1em 0 0;
+    border-top: solid 1px #c0c0c0;
+}
+
+.form-edit-rektic input:not([type=checkbox]):not([type=radio]), .form-edit-rektic select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100% !important;
+    padding: .4em;
+}
+
+.form-edit-rektic button {
+    font-weight: 700;
+    align-self: flex-end;
+    padding: 1em;
+    cursor: pointer;
+    color: #ffffff;
+    border: 0;
+    background-color: #0cc39f;
+}
+
+.form-edit-rektic .rektic-footer {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 2em 0 0 0;
+    padding-top: 0.5em;
+    border-top: solid 1px #cccccc;
+}
+
+.form-edit-rektic button:hover {
+    opacity: 0.8;
+}
+
+.form-edit-rektic label small {
+    font-size: 11px;
+    line-height: 15px;
+    position: absolute;
+    top: calc(100% + 15px);
+    display: block;
+    margin: 0 auto;
+}
+
+#rektic-editor .row {
+    overflow: auto;
+}
+
+.form-edit-rektic span.progress {
+    width: calc(100% - 1em);
+}
+
+.form-edit-rektic .niceCountryInputSelector {
+    border: none !important;
+}
+
+.form-edit-rektic .niceCountryInputSelector, .niceCountryInputMenu {
+    display: block !important;
+    padding-bottom: 1em !important;
+}
+
+.form-edit-rektic .niceCountryInputMenu {
+    margin: 0 !important;
+    border-radius: 4px;
+}
+
+.form-edit-rektic .niceCountryInputSelector {
+    margin: 0 !important;
+}
+
+.form-edit-rektic img.rek-loader {
+    display: inline-block;
+    width: 20px;
+}
+
+.form-edit-rektic .invalid {
+    border-color: red !important;
+}
+
+img.step-loader {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.h1display {
+    padding: 1rem !important;
+    border: solid 1px #c0c0c0;
+}
+
+.h1display ul {
+    flex-basis: 50%;
+    list-style: inside;
+}
+
+li.h1select {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div#h1disp1 ul {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+div#h1disp1 {
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 2em 0;
+}
+
+div#h1disp1:before {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: -2.5em;
+    content: " ";
+    border: solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: 1em solid #1d2327;
+    border-left: 1em solid transparent;
+}
+
+.form-edit-rektic > input {
+    display: none;
+}
+
+.rektic-preview {
+    display: flex !important;
+}
+
+.rektic-metabox .btn {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.rektic-metabox .btn:after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rektic-metabox .primary {
+    color: #2271b1;
+    border: 2px solid #2271b1;
+}
+
+.rektic-metabox .primary:after {
+    top: 50%;
+    left: 50%;
+    width: 101%;
+    height: 0;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    background: #2271b1;
+}
+
+.rektic-metabox .primary:hover, .rektic-metabox .primary:active {
+    color: #f6f7f7;
+}
+
+.rektic-metabox .primary:hover:after {
+    height: 90%;
+    opacity: 1;
+}
+
+.rektic-metabox {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.rektic-metabox .btn:disabled, .rektic-metabox .btn:disabled:hover {
+    color: #ffffff;
+    border: gray !important;
+    background: gray !important;
+}
+
+.rektic-metabox .primary:disabled:hover:after {
+    background: transparent !important
+}
+
+.rektic-links-list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.rektic-links-list a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.text-danger {
+    color: #ff1744;
+}
+
+a.rektic-export {
+    cursor: pointer;
+}
+
+.rektic-art-export {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.rektic-articles-list th, table.rektic-articles-list td {
+    margin: 0;
+    padding: 5px 10px;
+    border: solid 1px #cccccc;
+}
+
+table.rektic-articles-list tr td:last-of-type {
+    font-weight: 700
+}
+
+table.rektic-articles-list {
+    border: solid 1px #cccccc;
+}
+
+.rektic-article-preview {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.rektic-article-preview p {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-width: 400px;
+}
+
+.rektic-article-preview p:first-of-type {
+    font-weight: 700
+}
+
+.rektic-article-preview p img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+.keywords-header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 0 10px;
+}
+
+.Animationlogo01 {
+    width: 90px;
+    height: 90px;
+    max-height: 100%;
+    -webkit-animation: Animationlogo02 2s infinite;
+    animation: Animationlogo02 2s infinite
+}
+
+@-webkit-keyframes Animationlogo02 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes Animationlogo02 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+.accordion-wrapper {
+    position: relative;
+    margin-bottom: .5rem;
+}
+
+.acc-head {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    position: relative;
+    padding: 10px;
+    background: #c5c5c5;
+}
+
+.acc-head::after {
+    position: absolute;
+    right: 16px;
+    content: "\276F";
+    transition: .4s;
+    transform: rotate(0deg);
+    color: grey;
+}
+
+.acc-head.active::after {
+    position: absolute;
+    right: 16px;
+    content: "\276F";
+    transition: .4s;
+    transform: rotate(90deg);
+    color: grey;
+}
+
+.acc-body {
+    display: none;
+    padding: 1rem;
+    background: #dadee2;
+}
+
+@media only screen and (max-width: 600px) {
+    .rektic-keywords-list {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .rektic-keywords-list {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .rektic-keywords-list {
+        width: 700px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .rektic-keywords-list {
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .rektic-keywords-list {
+        width: 1000px;
+    }
+}
+
+.rektic-keywords-list p {
+    text-transform: capitalize;
+}

@@ -1,0 +1,589 @@
+# Copyright (C) 2021 rektic-wp
+# This file is distributed under the same license as the rektic-wp package.
+msgid ""
+msgstr ""
+"Project-Id-Version: rektic-wp\n"
+"Report-Msgid-Bugs-To: https://omarion.me\n"
+"POT-Creation-Date: 2023-02-03 14:48+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: SAKHRAOUI Omar <info@omarion.me>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: rektic-wp.php:68
+msgid "Rektic WP is unable to find the Bootstrap class."
+msgstr "Rektic WP est incapable de trouver la classe de démarrage."
+
+#: rektic-wp.php:78
+msgid "Rektic WP is unable to run the Bootstrap class."
+msgstr "Rektic WP est incapable d'éxecuter la classe de démarrage."
+
+#: src/App/Backend/Ajaxer.php:81
+msgid "Main Keyword Density"
+msgstr "Densité des mots-clés principaux"
+
+#: src/App/Backend/Ajaxer.php:82
+msgid "Main keywords in the introduction"
+msgstr "Principaux mots clés de l'introduction"
+
+#: src/App/Backend/Ajaxer.php:83
+msgid "Main keyword in the sub-titles"
+msgstr "Mot-clé principal dans les sous-titres"
+
+#: src/App/Backend/Ajaxer.php:84
+msgid "Main keyword in the meta-description"
+msgstr "Mot-clé principal dans la méta-description"
+
+#: src/App/Backend/Ajaxer.php:85
+msgid "Query in the SEO title (meta-title)"
+msgstr "Requête dans le titre SEO (méta-titre)"
+
+#: src/App/Backend/Ajaxer.php:86
+msgid "Length of meta-description"
+msgstr "Longueur de la méta-description"
+
+#: src/App/Backend/Ajaxer.php:87
+msgid "External links"
+msgstr "Liens externes"
+
+#: src/App/Backend/Ajaxer.php:88
+msgid "Internal linkage"
+msgstr "Liaison interne"
+
+#: src/App/Backend/Ajaxer.php:89
+msgid "Length of the content"
+msgstr "Longueur du contenu"
+
+#: src/App/Backend/Ajaxer.php:90
+msgid "SEO title length"
+msgstr "Longueur du titre SEO"
+
+#: src/App/Backend/Ajaxer.php:91
+msgid "Readability"
+msgstr "Lisibilité"
+
+#: src/App/Backend/Ajaxer.php:92
+msgid "HN tags"
+msgstr "Balises HN"
+
+#: src/App/Backend/Ajaxer.php:93
+msgid "Adding media"
+msgstr "Ajout de médias"
+
+#: src/App/Backend/Ajaxer.php:94
+msgid "Alt TAG"
+msgstr "TAG alt"
+
+#: src/App/Backend/Ajaxer.php:95
+msgid "Dimensions of the pictures"
+msgstr "Dimensions des images"
+
+#: src/App/Backend/Ajaxer.php:96
+msgid ""
+"Caution, the main keyword is not highlighted. The ideal case is to insert it "
+"{var1} times in this article"
+msgstr ""
+"Attention, le mot-clé principal n'est pas mis en évidence. L'idéal est de "
+"l'insérer {var1} fois dans cet article"
+
+#: src/App/Backend/Ajaxer.php:98
+msgid ""
+"The main keyword appears {var1} times, beware of over-optimization! The "
+"maximum is {var2} times for this length."
+msgstr ""
+"Le mot-clé principal apparaît {var1} fois, attention à la sur-optimisation ! "
+"Le maximum est {var2} fois pour cette longueur."
+
+#: src/App/Backend/Ajaxer.php:100
+msgid ""
+"Perfect! Your target query appears {var1} times in your {wordsCount} words "
+"article."
+msgstr ""
+"Parfait! Votre requête cible apparaît {var1} fois dans votre article de "
+"{wordsCount} mots."
+
+#: src/App/Backend/Ajaxer.php:101
+msgid "It must be inserted {var1} times in this article"
+msgstr "Il doit être inséré {var1} fois dans cet article"
+
+#: src/App/Backend/Ajaxer.php:102
+msgid "Good, your main keyword appears in the first sentence."
+msgstr "Bon, votre mot-clé principal apparaît dans la première phrase."
+
+#: src/App/Backend/Ajaxer.php:103
+msgid "Only a part of your main keyword appears in the first sentence."
+msgstr ""
+"Seule une partie de votre mot-clé principal apparaît dans la première phrase."
+
+#: src/App/Backend/Ajaxer.php:104
+msgid "You must insert it in the first sentence of your article."
+msgstr "Vous devez l'insérer dans la première phrase de votre article."
+
+#: src/App/Backend/Ajaxer.php:105
+msgid "Good, you have inserted the query once in an H2 or H3"
+msgstr "Bon, vous avez inséré la requête une fois dans un H2 ou H3"
+
+#: src/App/Backend/Ajaxer.php:106
+msgid "Perfect! The query appears twice in the H2 or H3."
+msgstr "Parfait! La requête apparaît deux fois dans le H2 ou le H3."
+
+#: src/App/Backend/Ajaxer.php:107
+msgid ""
+"Beware of over-optimization, it is better to insert the query at most twice "
+"in the different H2 and H3.."
+msgstr ""
+"Attention à la sur-optimisation, il vaut mieux insérer la requête au maximum "
+"deux fois dans les différents H2 et H3."
+
+#: src/App/Backend/Ajaxer.php:109
+msgid "Only a part of your main keyword appears in the H2 or H3."
+msgstr ""
+"Seule une partie de votre mot-clé principal apparaît dans le H2 ou le H3."
+
+#: src/App/Backend/Ajaxer.php:110
+msgid "You must insert the main keyword at least once in the H2 or H3."
+msgstr ""
+"Vous devez insérer le mot-clé principal au moins une fois dans le H2 ou le "
+"H3."
+
+#: src/App/Backend/Ajaxer.php:111
+msgid "Good, your main keyword appears in the meta-description."
+msgstr "Bon, votre mot-clé principal apparaît dans la méta-description."
+
+#: src/App/Backend/Ajaxer.php:112
+msgid "Caution, you must insert the main keyword in the meta-description."
+msgstr ""
+"Attention, vous devez insérer le mot-clé principal dans la méta-description."
+
+#: src/App/Backend/Ajaxer.php:113
+msgid ""
+"Beware of over-optimization. The main keyword must be inserted only once in "
+"the meta-description."
+msgstr ""
+"Attention à la sur-optimisation. Le mot-clé principal doit être inséré une "
+"seule fois dans la méta-description."
+
+#: src/App/Backend/Ajaxer.php:115
+msgid "Good, your main keyword appears in the meta-title."
+msgstr "Bon, votre mot-clé principal apparaît dans le méta-titre."
+
+#: src/App/Backend/Ajaxer.php:116
+msgid "Caution, you must insert the main keyword in the meta-title."
+msgstr "Attention, vous devez insérer le mot-clé principal dans le méta-titre."
+
+#: src/App/Backend/Ajaxer.php:117
+msgid ""
+"Beware of over-optimization. The main keyword must be inserted only once in "
+"the meta-title."
+msgstr ""
+"Attention à la sur-optimisation. Le mot-clé principal doit être inséré une "
+"seule fois dans le méta-titre."
+
+#: src/App/Backend/Ajaxer.php:119
+msgid "Perfect!"
+msgstr "Parfait!"
+
+#: src/App/Backend/Ajaxer.php:120
+msgid "The length of the meta-description must be between 140 and 160."
+msgstr ""
+"La longueur de la méta-description doit être comprise entre 140 et 160."
+
+#: src/App/Backend/Ajaxer.php:121
+msgid "Caution, it must be at least 140 characters."
+msgstr "Attention, il doit faire au moins 140 caractères."
+
+#: src/App/Backend/Ajaxer.php:122
+msgid "Caution, you must not exceed 160 characters."
+msgstr "Attention, vous ne devez pas dépasser 160 caractères."
+
+#: src/App/Backend/Ajaxer.php:123
+msgid "Good, the article contains external links!"
+msgstr "Bon, l'article contient des liens externes !"
+
+#: src/App/Backend/Ajaxer.php:124
+msgid "Caution, you must insert at least one external link."
+msgstr "Attention, vous devez insérer au moins un lien externe."
+
+#: src/App/Backend/Ajaxer.php:125
+msgid "Good, the article contains internal links!"
+msgstr "Bon, l'article contient des liens internes !"
+
+#: src/App/Backend/Ajaxer.php:126
+msgid "Caution, you must insert at least one internal link."
+msgstr "Attention, vous devez insérer au moins un lien interne."
+
+#: src/App/Backend/Ajaxer.php:127
+msgid "Good, you have written a content of {wordsCount} words."
+msgstr "Bien, vous avez écrit un contenu de {wordsCount} mots."
+
+#: src/App/Backend/Ajaxer.php:128
+msgid ""
+"Quantity plays an important role in SEO; try to reach at least 1000 words!"
+msgstr ""
+"La quantité joue un rôle important dans le référencement ; essayez "
+"d'atteindre au moins 1000 mots!"
+
+#: src/App/Backend/Ajaxer.php:129
+msgid ""
+"Be careful, the content is very short; try to reach at least the 1000 words!"
+msgstr ""
+"Attention, le contenu est très court ; essayez d'atteindre au moins les 1000 "
+"mots !"
+
+#: src/App/Backend/Ajaxer.php:130
+msgid "Good!"
+msgstr "Bien!"
+
+#: src/App/Backend/Ajaxer.php:131
+msgid "Be careful, too long!"
+msgstr "Attention, trop long !"
+
+#: src/App/Backend/Ajaxer.php:132
+msgid "Be careful, too short!"
+msgstr "Attention, trop court !"
+
+#: src/App/Backend/Ajaxer.php:133
+msgid ""
+"According to the Flesch test, your readability score is {var1}. "
+"Congratulations, your article is easy to read."
+msgstr ""
+"Selon le test Flesch, votre score de lisibilité est {var1}. Félicitations, "
+"votre article est facile à lire."
+
+#: src/App/Backend/Ajaxer.php:135
+msgid ""
+"According to the Flesch test, your score is {var1}... Try to shorten long "
+"sentences or multiply lists."
+msgstr ""
+"Selon le test de Flesch, votre score est de {var1}... Essayez de raccourcir "
+"les phrases longues ou de multiplier les listes."
+
+#: src/App/Backend/Ajaxer.php:137
+msgid ""
+"According to the Flesch test, your score is {var1}... Beware, your article "
+"is difficult to read. Try to shorten long sentences and multiply lists."
+msgstr ""
+"Selon le test Flesch, votre score est de {var1}... Attention, votre article "
+"est difficile à lire. Essayez de raccourcir les longues phrases et de "
+"multiplier les listes."
+
+#: src/App/Backend/Ajaxer.php:139
+msgid "Good for you, there are enough H2 and H3!"
+msgstr "Tant mieux pour vous, il y a assez de H2 et de H3 !"
+
+#: src/App/Backend/Ajaxer.php:140
+msgid "Caution! You have no H3s, add at least one."
+msgstr "Avertir! Vous n'avez pas de H3, ajoutez-en au moins un."
+
+#: src/App/Backend/Ajaxer.php:141
+msgid "Caution! You need at least two H2s."
+msgstr "Avertir! Vous avez besoin d'au moins deux H2."
+
+#: src/App/Backend/Ajaxer.php:142
+msgid "Perfect, good job !"
+msgstr "Parfait, bon travail !"
+
+#: src/App/Backend/Ajaxer.php:143
+msgid "You need at least 4 media per article (images and videos)"
+msgstr "Vous avez besoin d'au moins 4 médias par article (images et vidéos)"
+
+#: src/App/Backend/Ajaxer.php:144
+msgid ""
+"You need to illustrate the article with images and videos, at least 4 media "
+"per article."
+msgstr ""
+"Vous devez illustrer l'article avec des images et des vidéos, au moins 4 "
+"médias par article."
+
+#: src/App/Backend/Ajaxer.php:146
+msgid "Good, you have filled in the ALT tag correctly"
+msgstr "Bon, vous avez bien rempli la balise ALT"
+
+#: src/App/Backend/Ajaxer.php:147
+msgid ""
+"Good, you filled in the alt tag but you need to insert the main keyword "
+msgstr ""
+"Bon, vous avez rempli la balise alt mais vous devez insérer le mot-clé "
+"principal "
+
+#: src/App/Backend/Ajaxer.php:148
+msgid ""
+"It is essential to fill in the ALT tag without forgetting to insert the main "
+"keyword."
+msgstr ""
+"Il est indispensable de renseigner la balise ALT sans oublier d'insérer le "
+"mot-clé principal."
+
+#: src/App/Backend/Ajaxer.php:149
+msgid "Insert an image on the front page and fill in the ALT tag"
+msgstr "Insérez une image sur la page d'accueil et remplissez la balise ALT"
+
+#: src/App/Backend/Ajaxer.php:150
+msgid "Good, all the images inserted are 600 px wide"
+msgstr "Bon, toutes les images insérées font 600px de large"
+
+#: src/App/Backend/Ajaxer.php:151
+msgid "Attention, the width of the inserted images must be 600px."
+msgstr "Attention, la largeur des images insérées doit être de 600px."
+
+#: src/App/Backend/Ajaxer.php:152
+msgid "Good, you have filled in the ALT tag"
+msgstr "Bon, vous avez rempli la balise ALT"
+
+#: src/App/Backend/Ajaxer.php:153
+msgid "It is essential to fill in the ALT tag"
+msgstr "Il est indispensable de renseigner la balise ALT"
+
+#: src/App/Backend/Ajaxer.php:253 src/App/Backend/Ajaxer.php:310
+#: src/App/Backend/Ajaxer.php:359 src/App/Backend/Ajaxer.php:418
+#: src/App/Backend/Ajaxer.php:487 src/App/Backend/Ajaxer.php:542
+#: src/App/Backend/Ajaxer.php:595 src/App/Backend/Ajaxer.php:650
+#: src/App/Backend/Ajaxer.php:699 src/App/Backend/Ajaxer.php:751
+#: src/App/Backend/Ajaxer.php:800 src/App/Backend/Ajaxer.php:849
+#: src/App/Backend/Ajaxer.php:902 src/App/Backend/Ajaxer.php:974
+#: src/App/Backend/Ajaxer.php:1032 src/App/Backend/Ajaxer.php:1085
+#: src/App/Backend/Ajaxer.php:1138
+msgid "Not enough power you wield"
+msgstr "Vous n'avez pas assez de pouvoir"
+
+#: src/App/Backend/Ajaxer.php:288 src/App/Backend/Ajaxer.php:337
+#: src/App/Backend/Ajaxer.php:394 src/App/Backend/Ajaxer.php:465
+#: src/App/Backend/Ajaxer.php:677 src/App/Backend/Ajaxer.php:729
+#: src/App/Backend/Ajaxer.php:778 src/App/Backend/Ajaxer.php:827
+#: src/App/Backend/Ajaxer.php:880 src/App/Backend/Ajaxer.php:952
+#: src/App/Backend/Ajaxer.php:1010 src/App/Backend/Ajaxer.php:1063
+#: src/App/Backend/Ajaxer.php:1116 src/App/Backend/Ajaxer.php:1181
+msgid "This article does not exist!"
+msgstr "Cet article n'existe pas !"
+
+#: src/App/Backend/Ajaxer.php:292 src/App/Backend/Ajaxer.php:341
+#: src/App/Backend/Ajaxer.php:398 src/App/Backend/Ajaxer.php:469
+#: src/App/Backend/Ajaxer.php:524 src/App/Backend/Ajaxer.php:577
+#: src/App/Backend/Ajaxer.php:632 src/App/Backend/Ajaxer.php:681
+#: src/App/Backend/Ajaxer.php:733 src/App/Backend/Ajaxer.php:782
+#: src/App/Backend/Ajaxer.php:831 src/App/Backend/Ajaxer.php:884
+#: src/App/Backend/Ajaxer.php:956 src/App/Backend/Ajaxer.php:1014
+#: src/App/Backend/Ajaxer.php:1067 src/App/Backend/Ajaxer.php:1120
+#: src/App/Backend/Ajaxer.php:1185
+msgid "Could not contact the server!"
+msgstr "Impossible de contacter le serveur !"
+
+#: src/App/Backend/Ajaxer.php:296 src/App/Backend/Ajaxer.php:345
+#: src/App/Backend/Ajaxer.php:404 src/App/Backend/Ajaxer.php:473
+#: src/App/Backend/Ajaxer.php:528 src/App/Backend/Ajaxer.php:581
+#: src/App/Backend/Ajaxer.php:636 src/App/Backend/Ajaxer.php:685
+#: src/App/Backend/Ajaxer.php:737 src/App/Backend/Ajaxer.php:786
+#: src/App/Backend/Ajaxer.php:835 src/App/Backend/Ajaxer.php:888
+#: src/App/Backend/Ajaxer.php:960 src/App/Backend/Ajaxer.php:1018
+#: src/App/Backend/Ajaxer.php:1071 src/App/Backend/Ajaxer.php:1124
+#: src/App/Backend/Ajaxer.php:1189
+msgid "Some data is missing!"
+msgstr "Certaines données sont manquantes !"
+
+#: src/App/Backend/Ajaxer.php:520 src/App/Backend/Ajaxer.php:573
+#: src/App/Backend/Ajaxer.php:628
+msgid "There was a problem!"
+msgstr "Il y avait un problème!"
+
+#: src/App/Backend/MenuPages.php:107
+msgid "My Rektic"
+msgstr "My Rektic"
+
+#: src/App/Backend/MenuPages.php:107
+msgid "My Rektic Articles"
+msgstr "Mes articles Rektic"
+
+#: src/App/Backend/MenuPages.php:111
+msgid "Create A New Article"
+msgstr "Créer un nouvel article"
+
+#: src/App/Backend/MenuPages.php:116
+msgid "Edit Article"
+msgstr "Modifier l'article"
+
+#: src/App/Backend/MetaBox.php:76
+msgid "Rektic Content Generator"
+msgstr "Générateur de contenu Rektic"
+
+#: src/App/Backend/Notices.php:57
+msgid "This area is critical, proceed carefully!."
+msgstr "Cette zone est critique, procédez avec prudence !."
+
+#: src/App/Backend/Settings.php:95 templates/settings.php:13
+msgid "Rektic Settings"
+msgstr "Paramètres Rektic"
+
+#: src/Bootstrap.php:345
+#, php-format
+msgid ""
+"Could not load class \"%s\". The \"init\" method is probably missing or try "
+"a `composer dumpautoload -o` to refresh the autoloader."
+msgstr ""
+"Impossible de charger la classe \"%s\". La méthode \"init\" est probablement "
+"manquante ou essayez un `composer dumpautoload -o` pour actualiser le "
+"chargeur automatique."
+
+#: src/Bootstrap.php:346
+msgid "Plugin initialize failed"
+msgstr "Échec de l'initialisation du plug-in"
+
+#: src/Common/Traits/Requester.php:54
+#, php-format
+msgid "Unknown request type: %s"
+msgstr "Type de requête inconnu : %s"
+
+#: src/Common/Traits/Requester.php:55
+msgid "Classes are not being correctly requested"
+msgstr "Les classes ne sont pas demandées correctement"
+
+#: src/Common/Utils/Errors.php:43
+msgid "&rsaquo; Fatal Error"
+msgstr "&rsaquo; Erreur fatale"
+
+#: src/Common/Utils/Errors.php:51 src/Common/Utils/Errors.php:115
+#, php-format
+msgid "Error source: %s"
+msgstr "Origine de l'erreur : %s"
+
+#: src/Common/Utils/Errors.php:107
+msgid "&rsaquo; Plugin Disabled"
+msgstr "&rsaquo; Plug-in désactivé"
+
+#: src/Config/Requirements.php:90
+msgid "Invalid PHP version"
+msgstr "Version PHP invalide"
+
+#: src/Config/Requirements.php:91
+#, php-format
+msgid ""
+"You must be using PHP %1$1s or greater. You are currently using PHP %2$2s."
+msgstr ""
+"Vous devez utiliser PHP %1$1s ou supérieur. Vous utilisez actuellement PHP "
+"%2$2s."
+
+#: src/Config/Requirements.php:100
+msgid "Invalid WordPress version"
+msgstr "Version WordPress invalide"
+
+#: src/Config/Requirements.php:101
+#, php-format
+msgid ""
+"You must be using WordPress %1$1s or greater. You are currently using "
+"WordPress %2$2s."
+msgstr ""
+"Vous devez utiliser WordPress %1$1s ou supérieur. Vous utilisez actuellement "
+"WordPress %2$2s."
+
+#: templates/access-denied.php:17
+msgid "Error"
+msgstr "Erreur"
+
+#: templates/access-denied.php:18
+msgid "Your access has been denied, please login in using "
+msgstr "Votre accès a été refusé, veuillez vous connecter en utilisant "
+
+#: templates/access-denied.php:19
+msgid "This link"
+msgstr "Ce lien"
+
+#: templates/article-edit.php:18
+msgid "Create a new article"
+msgstr "Créer un nouvel article"
+
+#: templates/article-edit.php:18
+msgid "Edit article"
+msgstr "Modifier l'article"
+
+#: templates/article-edit.php:19
+msgid "Please follow the form to create your article"
+msgstr "Veuillez suivre le formulaire pour créer votre article"
+
+#: templates/articles-list.php:13
+msgid "Rektic Articles list"
+msgstr "Liste des articles Rektic"
+
+#: templates/articles-list.php:14
+msgid "Articles list present in your account"
+msgstr "Liste des articles présents dans votre compte"
+
+#: templates/articles-list.php:78
+msgid "Create article"
+msgstr "Créer un article"
+
+#: templates/settings.php:14
+msgid "Settings for Rektic plugin"
+msgstr "Paramètres du plug-in Rektic"
+
+#: vendor/micropackage/requirements/src/Checker/DocHooks.php:45
+msgid ""
+"Support for DocHooks is required. You need to disable OPCache comment "
+"stripping."
+msgstr ""
+"La prise en charge de DocHooks est requise. Vous devez désactiver la "
+"suppression des commentaires OPCache."
+
+#: vendor/micropackage/requirements/src/Checker/DocHooks.php:49
+msgid "Support for DocHooks is superfluous"
+msgstr "La prise en charge de DocHooks est superflue"
+
+#: vendor/micropackage/requirements/src/Checker/PHP.php:44
+#, php-format
+msgid "Minimum required version of PHP is %1$s. Your version is %2$s"
+msgstr "La version minimale requise de PHP est %1$s. Votre version est %2$s"
+
+#: vendor/micropackage/requirements/src/Checker/PHPExtensions.php:50
+#, php-format
+msgid "Missing PHP extension: %s"
+msgid_plural "Missing PHP extensions: %s"
+msgstr[0] "Extension PHP manquante : %s"
+msgstr[1] "Extensions PHP manquantes : %s"
+
+#: vendor/micropackage/requirements/src/Checker/Plugins.php:65
+#, php-format
+msgid "Required plugin: %s"
+msgstr "Plug-ins requis: %s"
+
+#: vendor/micropackage/requirements/src/Checker/Plugins.php:73
+#, php-format
+msgid "Minimum required version of %1$s plugin is %2$s. Your version is %3$s"
+msgstr ""
+"La version minimale requise du plug-in %1$s est %2$s. Votre version est %3$s"
+
+#: vendor/micropackage/requirements/src/Checker/SSL.php:40
+msgid "SSL is required"
+msgstr "SSL est requis"
+
+#: vendor/micropackage/requirements/src/Checker/SSL.php:44
+msgid "SSL is superfluous"
+msgstr "SSL est superflu"
+
+#: vendor/micropackage/requirements/src/Checker/Theme.php:47
+#, php-format
+msgid "Required theme: %s"
+msgstr "Thème requis : %s"
+
+#: vendor/micropackage/requirements/src/Checker/WP.php:44
+#, php-format
+msgid "Minimum required version of WordPress is %1$s. Your version is %2$s"
+msgstr ""
+"La version minimale requise de WordPress est %1$s. Votre version est %2$s"
+
+#: vendor/micropackage/requirements/src/Requirements.php:242
+#, php-format
+msgid "The plugin: <strong>%s</strong> cannot be activated."
+msgstr "Le plugin : <strong>%s</strong> ne peut pas être activé."
+
+#~ msgid "Displays HTML code with syntax highlighting."
+#~ msgstr "Affiche le code HTML avec la coloration syntaxique."
